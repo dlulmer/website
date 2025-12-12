@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<title>Math 1564, Fall 2015, Syllabus</title>
+</head>
+<body>
+<div class="container-fluid">
+<div class="page-header">
+    <h1 align="center">Syllabus for Math 1564<br>
+    Linear Algebra with Abstract Vector Spaces<br>
+    Fall 2015</h1>
+</div>
+<div class="alert alert-info">
+<p>The timing of topics in this syllabus is <strong>approximate</strong>
+and may change during the semester.</p>
+</div>
+
+<button type="button" class="btn btn-primary"
+data-target="#t1a,#t1b,#t2a,#t2b,#t3a,#t3b,#t4a,#t4b,#t5a,#t5b,#t5c,#t6a,#t6b,#t7a,#t7b,#t8a,#t10a,#t11a,#t12a,#t13a,#t14a,#t15a,#t16a,#t16b">
+    Show all topic descriptions
+    </button>
+    
+<button type="button" class="btn btn-warning"
+data-target="#t1a,#t1b,#t2a,#t2b,#t3a,#t3b,#t4a,#t4b,#t5a,#t5b,#t5c,#t6a,#t6b,#t7a,#t7b,#t8a,#t10a,#t11a,#t12a,#t13a,#t14a,#t15a,#t16a,#t16b">
+    Hide all topic descriptions
+    </button>
+    
+<script>
+$(document).ready(function(){
+    $(".btn-primary").click(function(){
+        $(".collapse").collapse('show');
+    });
+    $(".btn-warning").click(function(){
+        $(".collapse").collapse('hide');
+    });
+});
+</script>
+
+
+    <ul>
+        <li><h2 class="lead">Week 1 (Lectures on 8/18, 8/20):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t1a">
+                Topic: Solving linear systems with Gaussian elimination</button>
+                 <div id="t1a" class="collapse in">
+                    <ul>
+                        <li>Text: One.I</li>
+                        <li>Concepts: Standard form of a linear system,
+			solutions, row operations don't change
+			solution set, row operations lead to a system
+			&ldquo;in row echelon form&rdquo; whose
+			solutions are easy to read off. Homogeneous
+			and inhomogenous systems. Matrices and
+			vectors, addition and scalar
+			multiplication. Free variables,
+			parameterization of the general solution to a
+			system. The general solution is a particular
+			solution plus a solution of the associated
+			homogeneous system. Non-singular square
+			matrices.</li> 
+                        <li>Skills: Given any description of a linear
+			system, write it in standard form, apply row
+			operations to transform it to row echelon
+			form, and read off the solutions. Determine
+			whether a system has solutions. Give examples
+			of different outcomes (no solutions, unique
+			solution, infintely many solutions). Determine
+			whether a matrix is non-singular.</li> 
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t1b">
+                Topic: Geometry of vectors</button>
+                 <div id="t1b" class="collapse in">
+                    <ul>
+                        <li>Text: One.II</li>
+                        <li>Concepts: Vectors as length and
+			direction. Free vectors and vectors in
+			standard/canonical position. Geometric
+			interpretation of addition and scalar
+			multiplication. Lengths and angles, dot/inner
+			product, triangle and Cauchy-Schwartz
+			inequalities.</li>  
+                        <li>Skills: Visualize solutions to systems in
+			two and three variables. Calculate lengths and
+			angles.</li> 
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead">Week 2 (Lectures on 8/25, 8/27):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t2a">
+                Topic: Reduced echelon form</button>
+                 <div id="t2a" class="collapse in">
+                    <ul>
+                        <li>Text: One.III</li>
+                        <li>Concepts: Reduced echelon
+			form. Pivoting/Gauss-Jordan reduction leads to
+			reduced echelon form. Solutions can be read
+			off easily from this form. Equivalence
+			relations and equivalence classes; row
+			equivalence of matrices. Linear combinations
+			and row operations. Each row equivalence class
+			contains a unique matrix in reduced echelon
+			form.</li> 
+                        <li>Skills: Carry out Gauss-Jordan reduction and
+			interpret the results in terms of solutions of
+			linear systems.</li> 
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t2b">
+                Additional topic: Numerical stability</button>
+                 <div id="t2b" class="collapse in">
+                    <ul>
+                        <li>Text: One.Topic(Accuracy of Computations)</li>
+                        <li>Concepts: Roundoff errors can be amplified by
+			poor choices in reduction
+			algorithm. &ldquo;Partial pivoting&rdquo; is one
+			approach to limiting errors.</li> 
+                        <li>Skills: Row reduction with partial
+			pivoting.</li> 
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead">Week 3 (Lectures on 9/1, 9/3):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t3a">
+                Topic: Vector spaces</button>
+                 <div id="t3a" class="collapse in">
+                    <ul>
+                        <li>Text: Two.I.1</li>
+                        <li>Concepts: Motivation for abstract vector
+			spaces as the right framework for studying
+			linear combinations.  Definition and first
+			examples of vector spaces.  Additional
+			&ldquo;rules of calculation&rdquo; that follow
+			from the axioms.</li> 
+                        <li>Skills: Give examples and non-examples of
+			vector spaces.</li> 
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t3b">
+                Topic: Subspaces and spans</button>
+                 <div id="t3b" class="collapse in">
+                    <ul>
+                        <li>Text: Two.I.2</li>
+                        <li>Concepts: Definition and examples of
+			subspaces.  Span of a set of vectors.
+			Subspaces are spans. </li> 
+                        <li>Skills: Give examples of subspaces.  Check
+			whether a vector is in the span of a set of
+			vectors.</li>  
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead">Week 4 (Lectures on 9/8, 9/10):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t4a">
+                Topic: Linear independence</button>
+                 <div id="t4a" class="collapse in">
+                    <ul>
+                        <li>Text: Two.II</li>
+                        <li>Concepts:  Motivation via minimal spanning
+			sets.  Definition of linear independence and
+			equivalent conditions.  Relationship between
+			span and linear independence.</li> 
+                        <li>Skills: Check whether a set of vectors is
+			linearly independent.</li> 
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t4b">
+                Topic: Bases and coordinates</button>
+                 <div id="t4b" class="collapse in">
+                    <ul>
+                        <li>Text: Two.III.1</li>
+                        <li>Concepts:  Definition of a basis.
+			Standard basis of <b>R</b><sup>n</sup>.  Other
+			examples of bases.  Coordinates of a vector
+			with respect to a basis.</li> 
+                        <li>Skills: Check whether a set of vectors is
+			a basis.  Compute the coordinates of a vector
+			with respect to a basis.</li> 
+                    </ul>
+                    </div>
+                </li>
+				<li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t5a">
+                Topic: Dimension</button>
+                 <div id="t5a" class="collapse in">
+                    <ul>
+                        <li>Text: Two.III.2</li>
+                        <li>Concepts: Finite-dimensional vector
+			spaces.  All bases have the same number of
+			elements.  Dimension is the number of elements
+			in a basis.  Bases obtained by adding to
+			a linear independent set or removing from a
+			spanning set.</li> 
+                        <li>Skills: Compute the dimension of a vector space.</li> 
+                    </ul>
+                    </div>
+                </li>
+                          </ul>
+        </li>
+        <li><h2 class="lead">Week 5 (Lectures on 9/15, 9/17):</h2>
+            <ul>
+                  <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t5b">
+                Topic: Linear systems and vector spaces</button>
+                 <div id="t5b" class="collapse in">
+                    <ul>
+                        <li>Text: Two.III.3</li>
+                        <li>Concepts:  Row span, row rank, column
+			span, and column rank of a matrix.  Equality
+			of row rank and column rank.  Rank and the
+			dimension of the set of solutions of a
+			homogeneous linear system.</li> 
+                        <li>Skills: Compute the rank of a matrix.
+			Compute the dimension of the set of solutions
+			of a homogeneous linear system.</li> 
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead" ><strong>Exam 1 on 9/22</strong> covering material
+	discussed up to and including Week 4</h2></li> 
+        <li><h2 class="lead">Week 6 (Lecture on 9/24):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t6a">
+                Topic: Isomorphisms</button>
+                 <div id="t6a" class="collapse in">
+                    <ul>
+                        <li>Text: Three.I</li>
+                        <li>Concepts:  Definition of an isomorphism of
+			vector spaces and basic examples.
+			Automorphisms.  Isomorphisms preserve linear
+			independence and bases.  Isomorphism is an
+			equivalence relation.  Finite-dimensional
+			vector spaces are isomorphic if and only if
+			they have the same dimension.  </li> 
+                        <li>Skills: Check whether a map is an
+			isomorphism.  Give interesting examples of
+			isomorphisms between standard spaces
+			(<b>R</b><sup>n</sup>, polynomials, ...)</li> 
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead">Week 7 (Lectures on 9/29, 10/1):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t7a">
+                Topic: Linear maps (=homomorphisms)</button>
+                 <div id="t7a" class="collapse in">
+                    <ul>
+                        <li>Text: Three.II</li>
+                        <li>Concepts:  Definition, basic properties,
+			examples of linear maps.  Set of linear maps
+			between two vector spaces is itself a vector
+			space.  Image (=range), kernel (=nullspace) of a
+			linear map.  Dimension formula.  Non-singular
+			(=injective=1-1) linear maps.</li> 
+                        <li>Skills: Check whether a map is linear.
+			Give examples and non-examples of linear maps
+			between standard spaces.  Compute the image
+			and kernel of a linear map and their
+			dimensions.  Determine whether a linear map is
+			non-singular.</li> 
+                    </ul>
+                    </div>
+                </li>
+           </ul>
+        </li>
+        <li><h2 class="lead">Week 8 (Lectures on 10/6, 10/8):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t8a">
+                Topic: Linear maps from <b>R</b><sup>n</sup> to <b>R</b><sup>m</sup></button>
+                 <div id="t8a" class="collapse in">
+                    <ul>
+                        <li>Text: This material is implicit in Three.IV</li>
+                        <li>Concepts:  Linear maps from <b>R</b><sup>n</sup> to <b>R</b><sup>m</sup> 
+                            are given by matrices.  Composition corresponds to matrix multiplication.  
+                            Examples of interesting maps/matrices: dilations, rotations, shears, 
+                            projections.</li> 
+                        <li>Skills: Compute matrix-vector products, find the matrix representing a 
+                        map given geometrically.  Compute properties of a map (rank, nullity, kernel, image) 
+                        from the matrix.</li> 
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t8b">
+                Topic: Coordinates for linear maps</button>
+                 <div id="t8b" class="collapse in">
+                    <ul>
+                        <li>Text: Three.III</li>
+                        <li>Concepts: Coordinates of a linear map with
+			respect to two bases.  Composition and matrix multiplication.</li> 
+                        <li>Skills: Compute coordinates of linear
+			maps. Find properties of a linear map (rank, nullity, kernel, image)
+			from its coordinate matrix.</li> 
+                        <li>(Homework this week due 10/15)</li>
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead">Week 9 (Lecture 10/15):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t9">
+                Topic: More on matrices and matrix operations</button>
+                 <div id="t9" class="collapse in">
+                    <ul>
+                        <li>Text: Three.IV</li>
+                        <li>Concepts:  Special matrices: zero, identity, permutation matrices, 
+                        elementary matrices.  Row reduction via matrix multiplication.   
+                        Calculation of inverse matrices.</li> 
+                        <li>Skills: Identify special matrices.  Calculate inverses.</li> 
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead">Week 10 (Lectures on 10/20, 10/22):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t10a">
+                Topic: Change of basis</button>
+                 <div id="t10a" class="collapse in">
+                    <ul>
+                        <li>Text: Three.V</li>
+                        <li>Concepts:  Effect of changing bases on coordinates of vectors and matrices 
+                        of linear maps.  Change of basis formulas.  Standard form for a linear map.</li> 
+                        <li>Skills: Compute change of basis matrices and use them appropriately in change 
+                        of basis formulas.</li> 
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead">Week  11 (Lectures on 10/27, 10/29):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t11a">
+                Topic: Determinants</button>
+                 <div id="t11a" class="collapse in">
+                    <ul>
+                        <li>Text: Four.I.1-2, Four.II, Four.III.1</li>
+                        <li>Concepts:  Determinants detect non-singularity.  They can be calculated 
+                        using row operations.  Determinants as volumes.  Laplace expansion.</li> 
+                        <li>Skills: Calculate determinants using row operations and the Laplace 
+                        expansion.</li> 
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead" ><strong>Exam 2 on 11/3</strong> covering material discussed up to and including Week 10</h2></li>
+        <li><h2 class="lead">Week 12 (Lecture on 11/5):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t12a">
+                Topic: Orthogonal projection and the Gram-Schmidt process</button>
+                 <div id="t12a" class="collapse in">
+                    <ul>
+                        <li>Text: Three.VI.1-2</li>
+                        <li>Concepts:  The dot product as a symmetric, bilinear, positive definite function of two vectors.  Orthogonality.  Orthogonal projection of a vector onto the line spanned by another vector.  Orthogonal and orthonormal sets and bases.  The Gram-Schmidt algorithm.</li> 
+                        <li>Skills: Compute and interpret dot products.  Compute projections.   Apply the Gram-Schmidt algorithm.</li> 
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead">Week 13 (Lectures on 11/10, 11/12):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t13a">
+                Topic: Least squares approximations</button>
+                 <div id="t13a" class="collapse in">
+                    <ul>
+                        <li>Text: Notes to be distributed</li>
+                        <li>Concepts:  Coordinates with respect to an orthonormal basis.  Orthogonal projection onto a subspace.  Best approximation of a vector by another vector constrained to lie in a subspace.  Applications to inconsistent and/or underdetermined systems.  Application to least squares approximation.</li> 
+                        <li>Skills: Compute orthogonal projections and best approximations.  Compute least squares approximations. </li> 
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead">Week 14 (Lectures on 11/17, 11/19):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t14a">
+                Topic: Similarity, diagonalization, eigenvalues, and eigenvectors</button>
+                 <div id="t14a" class="collapse in">
+                    <ul>
+                        <li>Text: Five.I, Five.II</li>
+                        <li>Concepts:  Complex vector spaces.  Similarity of matrices.  Eigenvalues and eigenvectors.  Characteristic polynomial.  Diagonalization and bases of eigenvectors.</li> 
+                        <li>Skills: Compute characteristic polynomials, eigenvalues, and eigenvectors.  Use the change of basis formula to diagonalize a matrix.</li> 
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead">Week 15 (Lecture on 11/24):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t15a">
+                Topic: The Jordan form</button>
+                 <div id="t15a" class="collapse in">
+                    <ul>
+                        <li>Text: Class notes and Five.IV.2.13</li>
+                        <li>Concepts:  Jordan blocks and Jordan matrices.  Every linear transformation is represented by an essentially unique Jordan matrix.  Relationship between characteristic polynomial and Jordan form.</li> 
+                        <li>Skills: Compute the Jordan form directly in small dimensions.  Deduce the Jordan form from information on eigenvalues and kernels.</li> 
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead">Week 16 (Lectures on 12/1, 12/3):</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t16a">
+                Topic: The method of powers and Page Rank</button>
+                 <div id="t16a" class="collapse in">
+                    <ul>
+                        <li>Text: Five.Topic(Method of Powers), Five.Topic(Page Ranking)</li>
+                        <li>Concepts:  Computing eigenvalues andd eigenvectors via iteration of a map.  Applying eigenvalues and eigenvectors to ranking web pages.</li> 
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t16b">
+                Topic: Additional topics</button>
+                 <div id="t16b" class="collapse in">
+                    <ul>
+                        <li>Concepts:  Overview of course.  A few topics not covered in the course that you should be aware of.</li> 
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><h2 class="lead" ><strong>Final Exam on Tuesday December 8th from 2:50pm to
+	5:40pm</strong> covering material up to and including week 15</h2></li> 
+        <li><h2 class="lead">Additional topics that may be covered if time allows:</h2>
+            <ul>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t5c">
+                Additional topic: DC circuits</button>
+                 <div id="t5c" class="collapse in">
+                    <ul>
+                        <li>Text: One.Topic(Networks)</li>
+                        <li>Concepts:  Kirchhoff's laws.</li> 
+                        <li>Skills: Set up a linear system describing
+			the currents in a DC circuit.  Solve the system
+			and interpret the results.</li> 
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#t6b">
+                Additional topic: Markov chains</button>
+                 <div id="t6b" class="collapse in">
+                    <ul>
+                        <li>Text: Three.Topic(Markov Chains) + notes</li>
+                        <li>Concepts:  Definition and examples of
+			Markov chains</li> 
+                        <li>Skills: Set up a matrix modeling a Markov
+			chain and use it to explore its long-term
+			behavior </li> 
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+Back to the <a href="info.html">course information page</a>.
+
+</div>
+
+
+    </body>
+</html>

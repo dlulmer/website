@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<title>Math 2561, Spring 2016, Course Info</title>
+</head>
+<body>
+
+<div class="container-fluid">
+<div class="page-header">
+    <h1 align="center">Course information for Math 2561<br>
+Honors Multivariable Calculus<br>
+Spring 2016</h1>
+</div>
+
+
+<section class="slice" id="faq">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<h1 class="text-primary">Answers to Three Important Questions</h1>
+</div>
+<div class="col-md-10 col-md-offset-1">
+<div class="panel-group" id="accord">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#f1">
+<p class="text-info">What will I learn in this course?</p>
+</a>
+</h4>
+</div>
+<div id="f1" class="panel-collapse collapse">
+<div class="panel-body">
+<P>
+First, you will learn the fundamental concepts and theorems of
+differential and integral calculus of functions
+from <b>R</b><sup>n</sup> to <b>R</b><sup>m</sup>.  Second, you will
+apply these ideas to optimization and see some spectacular results
+from classical physics, such as Kepler's laws and Guass's theorem.
+Third, you will learn be introduced to differential forms and
+manifolds, the natural context for many problems in geometry and
+mechanics.  At the end of the day, you will master powerful tools with
+a very broad range of applicability.
+</P>
+
+<P>
+This course will also give you an introduction to abstraction and
+higher mathematics.  We will be careful about definitions and will
+give careful arguments, i.e., proofs, justifying everything we do.
+You will increase your ability to write clear and precise explanations
+of mathematical facts.
+</P>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#f2">
+<p class="text-info">OK, great.  Why would I want to learn all that?</p>
+</a>
+</h4>
+</div>
+<div id="f2" class="panel-collapse collapse ">
+<div class="panel-body">
+<P>
+First, because it is really useful.  Mathematicians sometimes say that
+all of mathematics is calculus and linear algebra.  This isn't
+completely true, but it's close.  Multivariable calculus will be used 
+(heavily) in many of your later courses and in many of your careers.
+</P>
+
+<P>
+Second, you are a top student in Math, and this course is designed to
+challenge students like you.
+</P>
+
+<P>
+Third and most importantly, because it is really interesting!  You
+will see some of the deepest and most productive ideas produced by human 
+culture. 
+</P>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#f3">
+<p class="text-info">Hmm, this sounds pretty hard.  Will I be able to do it?</p>
+</a>
+</h4>
+</div>
+<div id="f3" class="panel-collapse collapse ">
+<div class="panel-body">
+<P>
+Yes!  This course is designed for students who have mastered basic
+linear algebra, as demonstrated for example by doing well in Math 1554
+(earning an A) or 1564 (earning an A or B).
+</P>
+
+<P>
+The TAs and I are commited to helping you learn this material and
+succeed in the course.  Keep at it and you will do well.
+</P>
+
+<P>
+See the last section below for more hints on how to succeed in this
+class and advanced math classes in general.
+</P>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<section class="slice" id="overview">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<h1 class="text-primary">Course Overview</h1>
+</div>
+<div class="col-md-10 col-md-offset-1">
+<div class="panel-group" id="accord">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#o1">
+<p class="text-info">Course data</p>
+</a>
+</h4>
+</div>
+<div id="o1" class="panel-collapse collapse">
+<div class="panel-body">
+<UL>
+<LI>Course: Math 2561-L</LI>
+<LI>Number: 2561-L1 (30459) and 2561-L2 (30937) (Section L2 will be merged into L1)</LI>
+<LI>Title: Honors Multivariable Calculus</LI>
+<LI>Credit: 4 hours (4-0-4)</LI>
+</UL>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#o2">
+<p class="text-info">Purpose</p>
+</a>
+</h4>
+</div>
+<div id="o2" class="panel-collapse collapse ">
+<div class="panel-body">
+<P>This is a challenging course in multivariable calculus for
+mathematically ambitious and well-prepared students.  You will learn
+the fundamental algorithms and computational recipes as well as the
+theoretical underpinnings necessary for more advanced mathematics.
+Enrollment in the course is by invitation only and typically requires
+a grade of A in Math 1554 or an A or B in Math 1564.  Success in this
+course will prepare you for other 2000-level courses in such as
+differential equations, discrete mathematics, and foundations of
+mathematical proof.</P>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#o3">
+<p class="text-info">Structure</p>
+</a>
+</h4>
+</div>
+<div id="o3" class="panel-collapse collapse ">
+<div class="panel-body">
+<P>There will be two 80-minute lectures and two 50 minute recitations
+each week.  Lecture time will also include clicker quizes and some
+discussion.  Recitations will be devoted to active learning, i.e.,
+working problems and discussing difficulties.  There will be weekly
+homework, two mid-term exams, and a final exam.</P>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#o4">
+<p class="text-info">Learning Outcomes</p>
+</a>
+</h4>
+</div>
+<div id="o4" class="panel-collapse collapse ">
+<div class="panel-body">
+<OL>
+<LI>Multivariable functions: You will understand continuity and limits
+in the context of higher dimensions, and understand the relevance of
+scalar- and vector-valued functions to problems in science and
+engineering.</LI>
+<LI>Derivatives and optimization: You will understand the derivative
+of a function as a linear transformation and as the best linear
+approximation to a function near a point.  You will learn to apply the
+derivative to optimization problems.</LI>
+<LI>Integrals: You will learn how to define and interpret
+multidimensional integrals, as well as how to compute them directly
+and via iterated integrals and Fubini's theorem.  You will learn
+applications of integration to problems in mechanics, gravitataion,
+and electrostatics.</LI>
+<LI>Differential forms and manifolds: You will get an introduction to
+manifolds (spaces which locally look like <b>R</b><sup>n</sup>) and
+differential forms (things that can be integrated over manifolds).
+These objects are used to state the general Stokes theorem, which is a
+vast generalization of the fundamental theorem of calculus.</LI>
+<LI>Theory and calculation: In all of the above, you will learn both
+algorithms (how to compute things) and theory (careful definitions and
+complete, correct arguments).  Your understanding of the theory of
+calculus, both single-variable and multivariable, will increase.</LI>
+</OL>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<section class="slice" id="basic">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<h1 class="text-primary">Basic Information</h1>
+</div>
+<div class="col-md-10 col-md-offset-1">
+<div class="panel-group" id="accord">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#b1">
+<p class="text-info">Instructor</p>
+</a>
+</h4>
+</div>
+<div id="b1" class="panel-collapse collapse">
+<div class="panel-body">
+<UL>
+	<LI>Douglas Ulmer, Professor of Mathematics</LI>
+	<LI>Office: Skiles 234</LI>
+	<LI>E-mail: <a href="mailto:ulmer@math.gatech.edu">ulmer@math.gatech.edu</a></LI>
+	<LI>Web site: <A HREF="http://www.math.gatech.edu/~ulmer">http://www.math.gatech.edu/~ulmer</A></LI>
+	<LI>Office hours: Mondays 2:00 - 3:00 and Thursdays 3:00 - 4:00, or by appointment.  Check my web site for changes.</LI>
+</UL>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#b2">
+<p class="text-info">Teaching assistant and instructional designer</p>
+</a>
+</h4>
+</div>
+<div id="b2" class="panel-collapse collapse ">
+<div class="panel-body">
+<UL>
+	<LI>TA: Jonathan Paprocki
+	<ul>
+		<li>Office: Skiles 153</li>
+		<li>E-mail: <A HREF="mailto:jon.paprocki@gatech.edu">jon.paprocki@gatech.edu</A></li>
+		<li>Office hours: Wednesdays 12-1 and in the Math lab (Clough 280) TBA</li>
+	</ul></LI>
+	<LI>Instructional designer: Greg Mayer
+	<ul>
+		<li>Office: Skiles 116</li>
+		<li>E-mail: <A HREF="mailto:greg.mayer@gatech.edu">greg.mayer@gatech.edu</A></li>
+	</ul></LI>
+</UL>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#b3">
+<p class="text-info">Meetings</p>
+</a>
+</h4>
+</div>
+<div id="b3" class="panel-collapse collapse ">
+<div class="panel-body">
+<UL>
+	<LI>Lectures: TTh 	1:35 - 2:55 in Skiles 249</LI>
+	<li>Recitation: MW 11:05 - 11:55 in Clough 123</li>
+</UL>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#b4">
+<p class="text-info">Resources</p>
+</a>
+</h4>
+</div>
+<div id="b4" class="panel-collapse collapse ">
+<div class="panel-body">
+<UL>
+	<LI>Course topics and timing:  See the <a href="syllabus.html">syllabus</a> for a detailed list of topics.</LI>
+	<LI>Required text: &ldquo;Multivariable Mathematics&rdquo; by T. Shifrin.  (First edition, 2005, Wiley, ISBN: 0-471-52638-X).</LI>
+	<LI>In-class polling system:  You will need to set up an account with <A HREF="https://learningcatalytics.com" TARGET="_blank">Learning Catalytics</A>.  (You may already have one if you use a Pearson book in another class.  If not, the cost is $12 for six months or $20 for a year.)  You will use this system and your laptop, tablet, or phone to answer questions in class.</LI>
+	<LI>All homework assignments, lecture notes, sample exams, etc. will be posted on <A HREF="https://t-square.gatech.edu/" TARGET="_blank">t-square</A>.</LI>
+	<LI>Part of each homework assignment will use the WebWork on-line homework system.  This system generates problems with randomized data, allows unlimited attempts, and grades instantly.  These problems are mostly routine drill, but are essential for mastering course material.  Assignments will be linked from t-square.  <strong>Important:</strong> To use WebWork from off-campus, you will need to use a VPN.  See <A HREF="http://oit.gatech.edu/service/vpn/vpn-service-remote-access" TARGET="_blank">this OIT page</A> for more on how to set it up.  On campus or off, you will also need to configure your browser to allow pop-ups.</LI>
+	<LI>The t-square page also links to a Piazza discussion forum.  This is the place to post questions and answer questions from your fellow students.  It will be the <strong>fastest</strong> way to get your questions answered.  Active participation in Piazza will help you learn the material and will be viewed favorably when grades are assigned.</LI>
+</UL>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<section class="slice" id="req">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<h1 class="text-primary">Requirements, grades, policies, tips</h1>
+</div>
+<div class="col-md-10 col-md-offset-1">
+<div class="panel-group" id="accord">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#r1">
+<p class="text-info">Requirements</p>
+</a>
+</h4>
+</div>
+<div id="r1" class="panel-collapse collapse">
+<div class="panel-body">
+<ul>
+	<LI><b>Homework</b> will be assigned weekly, collected, and graded.  Part of each assignment will be routine problems done on-line using WebWork, with unlimited attempts and immediate grading.  Another part will consist of more challenging problems, to be written up in detail with careful arguments and correct standard English.</LI>
+	<LI>There will be frequent short <b>quizzes</b> (using Learning Catalytics) during lectures.  Quiz points will be part of the homework grade</LI>
+	<LI>There will be two <b>in-class exams: on Thursday, February 18 and Thursday, April 7</b>.</LI>
+	<LI>The <b>final exam will Tuesday May 3rd from 6:00pm to 8:50pm, in Skiles 249.</b> It will be a cumulative exam, covering the whole course.</LI>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#r2">
+<p class="text-info">Grades</p>
+</a>
+</h4>
+</div>
+<div id="r2" class="panel-collapse collapse ">
+<div class="panel-body">
+<UL>
+	<LI>Grades will be based on the percentage of possible points earned. </LI>
+	<LI>The in-class exams will each count for 20% of the grade, the final will count for 30%, and homework and quizes will count for 30%.</LI>
+	<LI>Cutoff percentages for A, B, C, D are 90%, 80%, 70%, and 60% respectively.</LI>
+</UL>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#r3">
+<p class="text-info">A typical week</p>
+</a>
+</h4>
+</div>
+<div id="r3" class="panel-collapse collapse ">
+<div class="panel-body">
+<UL>
+<LI>Lectures on Tuesday and Thursday will present new material.  There will often be quizes to test whether you have understood basic aspects of the preceding lectures.  Homework will be assigned on Thursday.</LI>
+<LI>The Wednesday recitation will be used to <i>actively</i> practice working with the new material, for example by solving problems on worksheets and discussing the answers.</LI>
+<LI>The on-line component of the homework (WebWork) will be usually be due on Sunday night at 11pm.</LI>
+<LI>The Monday recitation will be used to practice new material and to answer questions related to the more challenging written homework.</LI>
+<LI>The written homework will be due on Tuesday before lecture and will be returned the following Thursday.</LI>
+<LI>There may be slight modifications to the schedule on weeks with exams or breaks.  Note, however, that homework <b>will</b> be due in weeks with exams and on the last day of classes.</LI>
+</UL>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#p1">
+<p class="text-info">Other important policies</p>
+</a>
+</h4>
+</div>
+<div id="p1" class="panel-collapse collapse">
+<div class="panel-body">
+  <ul>
+  	<LI>There will be <b>no make-up exams</b>.  If an in-class exam is missed for an <i>acceptable and documented</i> reason (severe illness, death in the family, etc.), the score on that exam will be replaced with the score on the corresponding part of the final exam.  (What is &ldquo;corresponding&rdquo; will be determined by the professor.)  A test missed for unacceptable or undocumented reasons will receive a score of 0.</li>
+  	<li>Arrangements for extensive absences (e.g., for extracurricular activities) must be made by the end of the first week of classes.  Students requiring arrangements from the ADAPTS-Disability Services Program should consult their <A HREF="http://disabilityservices.gatech.edu/content/83/overview" TARGET="_blank">information page</a> and make arrangements as soon as possible.</LI>
+  	<LI><b>Collaboration and plagiarism</b>:  Discussing ideas and homework exercises with your peers is not only acceptable, it is a good idea.  However, you must write your own solutions in your own words.  Copying another's words or otherwise passing off someone else's work as your own is plagiarism and will result in a score of 0 on the entire assignment in question.  Egregious cases will be dealt with more harshly.  <b>ASK</b> if you have <b>any questions whatsoever about this</b></LI>
+  	<LI>Homework is due at the beginning of lecture, usually on Tuesdays.  Late homework is strongly discouraged.  It will be accepted up to 24 hours after the due time and will be assessed a 20% penalty.</LI>
+	<LI>The <A HREF="http://www.policylibrary.gatech.edu/student-affairs/academic-honor-code" TARGET="_blank">Georgia Tech Honor Code</A> applies 100% without exception.  Know it and live it.</LI>
+  	<li>Show some respect for your professor and your classmates---save Facebook, YouTube, and Technique for other times.</li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#t1">
+<p class="text-info">Tips for success</p>
+</a>
+</h4>
+</div>
+<div id="t1" class="panel-collapse collapse">
+<div class="panel-body">
+  <UL>
+	<LI><b>Read</b> the book.  The high school technique of flipping through the section looking for an example like the problem will not work in college.  The key is to read <b>actively</b>.  This means constantly asking yourself questions like &ldquo;What is the point of this example?  What idea does it illustrate?&rdquo;  In a theorem, &ldquo;why are these assumptions being made?  What happens if we relax one of them?&rdquo;  </LI>
+	<LI>It is <i>very</i> beneficial to read the relevant parts of the text <b>before class</b>.  The discussion will be much more meaningful if you already know what the key issues are.</LI>
+	<LI>Your goal should be <b>active understanding</b>.  This means being able to apply concepts in a new setting.  The best way to develop active understanding is to do lots of problems.  The texts have far more good problems than can be graded in this class.  Doing them is an excellent way to study.</LI>
+	<LI><b>On writing</b>:  The solution to an exercise or the proof of a theorem is a form of communication---it's a conversation between the reader and the author.  The goal is to convince the reader that the solution or proof is correct.  Doing this well involves all the same skills as writing an essay, in particular, knowing something about the audience (What can be assumed?  What is &ldquo;trivial&rdquo; and what requires explanation?)  and structuring the discussion so that it is easy to follow.  Learning to write mathematics well is an important goal for this course.</LI>
+	<LI>Good solutions and proofs usually involve more words than formulas.  The author should <b>explain</b> what he or she is doing.  I'll give some examples in class.</LI>
+	<LI>Working in small groups is a great idea.  If you can explain the ideas in this course to your friends, then you really know them.</LI>  
+	<LI>The TAs and I are <i>resources</i>.  We can't learn the material for you, but we can help a lot, by explaining the concepts and clarifying subtle or tricky points.  Take advantage, after all, we're why you are going to Tech, not that other, lesser place down the road.</LI>
+	<LI><b>Ask questions</b>, in class and in office hours.  This is how we know what you need help with, and helping you is what we are trying to do.</LI>
+	<LI>The pace will be very fast and if you fall behind it will be very difficult to catch up.  <b>Keep up!</b></LI>
+  </UL>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<button type="button" class="btn btn-primary"
+data-target="#f1, #f2, #f3, #o1, #o2, #o3, #o4, #b1, #b2, #b3, #b4, #r1, #r2, #r3, #p1, #t1">
+    Show all details
+    </button>
+    
+<button type="button" class="btn btn-warning"
+data-target="#f1, #f2, #f3, #o1, #o2, #o3, #o4, #b1, #b2, #b3, #b4, #r1, #r2, #r3, #p1, #t1">
+    Hide all details
+    </button>
+    
+<script>
+$(document).ready(function(){
+    $(".btn-primary").click(function(){
+        $(".collapse").collapse('show');
+    });
+    $(".btn-warning").click(function(){
+        $(".collapse").collapse('hide');
+    });
+});
+</script>
+
+<h4>To the <A HREF="syllabus.html">syllabus</A> (detailed description of topics).</h4>
+
+<!-- from Justin for t-square to webwork functionality: -->
+<!-- the following iframe is to grab a session cookie for webwork so the post from t-square works -->
+<iframe width="100%"
+ style="width:1px;padding:0 !important; height:1px"
+ frameborder="0"
+ marginwidth="0"
+ marginheight="0"
+ scrolling="auto"
+ src="https://webwork.math.gatech.edu/casgrab">
+</iframe>
+
+</body>
+</html>
+
+
+
